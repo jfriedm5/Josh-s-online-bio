@@ -58,10 +58,10 @@ footer{
 
 /*lists and elements wanted to further squeeze the lists so the bulluts and numbered items were closer to text. I set margin of unorgined lists to 5px on top and bottom and 100px from left and right. I set ordered list items to have 5px margin from top and bottom and 200px margin on left and right since there was less text. I then set list items padding to 5px all around so there was spacing between each element.*/ 
  ul{
-  margin: 5px 100px;
+  margin: 5px 20%;
    }
 ol{
-  margin: 5px 200px;
+  margin: 5px 40%;
 }
   li{
     padding: 5px;

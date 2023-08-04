@@ -1,0 +1,69 @@
+/*global box sizing*/
+*{
+  box-sizing:border-box;
+}
+/* anchors setting font for anchors and font size. creating pseudo-class style links for the anchors that change color when link is normal, visited, hovered over, or clicked on */
+a {
+  font-family:cursive;
+  font-size: 15px;
+}
+
+ a:link    { color: blue;  }
+ a:visited { color: #C6878F;   }
+ a:hover   { color: forestgreen; }
+ a:active  { color: red;  }
+
+/* header creating header background and colors, centering all text and setting margins to auto. setting individual margins and font sizes for h1, p, and just margins for nav */ 
+header{
+  box-sizing: border-box;
+  background-color:#253d5b;
+  text-align: center;
+  color:#C6878F;
+      font-family:cursive;
+  margin:auto;
+}
+h1{
+    font-size: 40px;
+  margin:15px;
+}
+header p{
+    font-size: 15px;
+ margin: 15px;
+  }
+header nav{
+  margin:15px;
+}
+
+/* body styling setting back ground color */
+body{
+  background-color:#f7f9f9;
+  }
+/* setting main content padding on the left and right to squeeze image and textto the middle of the webpage. I set text color, alignment to center, and font to cursive.*/
+main{
+    padding-left: 80px;
+  padding-right:80px;
+   text-align: center;
+  font-family: cursive;
+  color: #339989;
+}
+/*footer setting color, background color, aligning text to center, font to cursive and setting height of footer box to 80px*/ 
+footer{
+  box-sizing: border-box;
+  background-color:#253d5b;
+  text-align: center;
+  color:#C6878F;
+      font-family:cursive;
+  height: 80px;
+       }
+
+/*lists and elements wanted to further squeeze the lists so the bulluts and numbered items were closer to text. I set margin of unorgined lists to 5px on top and bottom and 100px from left and right. I set ordered list items to have 5px margin from top and bottom and 200px margin on left and right since there was less text. I then set list items padding to 5px all around so there was spacing between each element.*/ 
+ ul{
+  margin: 5px 100px;
+   }
+ol{
+  margin: 5px 200px;
+}
+  li{
+    padding: 5px;
+  }
+ 

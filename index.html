@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- created head element to hold character set, screen size of webpage in moniters, title of my webpage, normalize.cc link, and the link to the local style sheet-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Josh's-online-bio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+  <!-- created header element with id of top, created a h1 title, and a short p element, followed by a nav section that links various ids located throughout the document to take you to whatever section you wanted to read. I used semantic containers throughout the code for words like code, coding, software developer to better assist SEO -->
+<body>
+  <header id="top">
+  <h1>Joshua Friedman</h1>
+  <p>Thinkful Student and <em>software developer</em>!</p>
+  <div> 
+  <nav>
+   <a href="#top" class="button">Top of page</a>
+   <a href="#intro" class="button">Intro</a>
+   <a href="#aboutme" class="button">About me</a>
+   <a href="#contact" class="button">Contact</a>
+   <a href="#bottom" class="button">Bottom of page</a>
+  </nav>
+    </div>
+ 
+  </header>
+  
+   
+<!-- I created the main element to store all my text and images. I added a link to the image in my images folder with alt text Josh and Wife picture. I divided the text into 3 articles with ids of intro, about, and contact. Each article has its on h2 header. I created an unordered list to show my current interests and better highlight who I am. At the end of the article I created a link to my email that will generate an email with a preset subject and body. between each article I created horizontal rulers to help seperate each section.-->
+<main>
+  <div id="portrait">
+  <img src="images/Elena&Joshua.jpg" width="500" alt="Josh and Wife picture">
+ </div>
+  <article id="intro">
+    <h2>Hi! I'm Josh Friedman!</h2>
+     <div>
+       <p>I am a <strong>software developer</strong>  living in Charlotte, NC</p>
+       <p>I am currently interested in:</p>
+       <ul>
+         <li>Learning to <strong>code</strong>  and exploring the various programming languages </li>
+         <li>Trying food and restaurants local to Charlotte, around the country, and around the world</li>
+         <li>Getting in touch with nature and the great outdoors</li>
+       </ul>
+       <p>Please take a look at the website and feel free to <a href="mailto:jfriedm5@gmail.com?subject=This%20email%20is%20from%20Joshs%20Online%20bio&body=please%20dont%20delete%20the%20subject">contact Me.</a></p>
+    
+         </div>
+      </article>
+    
+    <hr>
+    <!-- created a link to the thinkful website-->
+<article id="aboutme">
+  <h2>About Josh!</h2>
+  <div>
+    <p>I lived in New York for 30 years before moving to Charlotte April of '22. I worked in the electrical industry for various supply houses and contractors. Most recently I was a purchasing agent helping to keep important jobsites working, making sure they get the product they needed at the right time and at the right price.</p>
+    <p>I was let go from my position after working full time remote in Charlotte for 14 months due to downsizing. Now I am a <a href="https://www.thinkful.com/">Thinkful</a> student learning to <strong>code</strong> and studying to be a <strong>software developer</strong> .</p>
+    <p>If you're looking to hire a new developer please reach out! I am very excited to learn, grow, and connect with other developers while expanding my newfound passion for <strong>coding</strong>! I am always looking for new people and opportunities to grow and learn.</p>
+  </div>
+</article>
+    
+  <hr>
+    <!-- created an organized list to store my contact information anchors which link to linkedin, github and again to send me an email--> 
+    
+<article id="contact">
+  <h2> Contact Josh!</h2>
+<div>
+  <p>I would love to hear from you! Please feel free to contact or follow me:</p>
+  <ol>
+    <li><a href="www.linkedin.com/in/friedmanjosh">LinkedIn</a></li>
+    
+    <li><a href="https://github.com/jfriedm5">GitHub</a></li>
+    
+    <li><a href="mailto:jfriedm5@gmail.com?subject=This%20email%20is%20from%20Joshs%20Online%20bio&body=please%20dont%20delete%20the%20subject">Email me</a></li>
+  </ol>
+</div>
+</article>
+      </main>
+
+  <!-- footer contains another nav section to better assist people to view areas of the page. It also has a section marking the creator of the webpage-->
+<footer id="bottom">
+    <nav>
+   <a href="#top" class="button">Top of page</a>
+   <a href="#intro" class="button">Intro</a>
+   <a href="#aboutme" class="button">About me</a>
+   <a href="#contact" class="button">Contact</a>
+   <a href="#bottom" class="button">Bottom of page</a>
+  </nav>
+  <h3>@JoshuaFriedman</h3> 
+</footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
